@@ -65,7 +65,6 @@ int main() {
         For(p, 1, c) {
             long long startPos = r * (p - 1) + 1;
             while (true) {
-                if (curRow == 7) break;
                 long long curPos = startPos + curRow - 1;
                 pair<int, int> curRC = getRC(curPos);
                 // cout << curRow << " " << curPos << " " << curRC.first << endl;
